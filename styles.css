@@ -11,6 +11,25 @@
 }
 
 .hero {
-    border: 5px solid red;
     height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./imgs/Landscape-Photography-steps.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero__title {
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.hero__description {
+  color: white;
+  max-width: 65ch;
 }
